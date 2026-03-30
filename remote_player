@@ -34,3 +34,6 @@ python3 server.py
 python3 remote_mpv.py --ipc-path /tmp/mpvsocket --address 0.0.0.0
 
 curl "http://REMOTE_IP:8080/?url=...&token=secret123"
+
+####################################################################
+https://github.com/wpdevelopment11/remote_mpv
