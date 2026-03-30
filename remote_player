@@ -33,3 +33,4 @@ python3 server.py
 ############from remote servwer 
 python3 remote_mpv.py --ipc-path /tmp/mpvsocket --address 0.0.0.0
 
+curl "http://REMOTE_IP:8080/?url=...&token=secret123"
