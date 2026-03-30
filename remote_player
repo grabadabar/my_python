@@ -1,7 +1,8 @@
 remote server pyhon script
 
 ###################
-
+from http.server import BaseHTTPRequestHandler, HTTPServer
+import subprocess
 import urllib.parse
 
 class Handler(BaseHTTPRequestHandler):
